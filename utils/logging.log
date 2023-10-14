@@ -1,0 +1,64 @@
+[2022/06/27 20:58-INFO-logging_utils.py(92)] >> console logging redirected to `tqdm.write()`
+[2022/06/27 21:00-INFO-logging_utils.py(92)] >> console logging redirected to `tqdm.write()`
+[2022/06/27 21:07-WARNING-tqdm_utils.py(54)] >> console logging redirected to `tqdm.write()`
+[2022/06/27 21:27-ERROR-file_utils.py(11)] >> /root/PycharmProjects/ET-BERT-main/datasets/VPN-PCAPS-01/output_split/vpn_bittorrent/vpn_bittorrent.pcap.TCP_10-8-8-130_33780_207-241-227-212_80.pcapng is not a pcap file
+NoneType: None
+[2022/06/27 21:36-ERROR-init_utils.py(19)] >> config file args_config.json not found
+NoneType: None
+[2022/06/27 21:37-INFO-init_utils.py(20)] >> getting parameters from config.json
+[2022/06/27 21:37-INFO-init_utils.py(24)] >> {'distributed': {'back_end': 'deepspeed', 'enabled': False},
+ 'json_config_path': '../args_config.json',
+ 'mode': 'debug',
+ 'raw_dataset': {'dataset_root': '/root/PycharmProjects/ET-BERT-main/datasets/VPN-PCAPS-01',
+                 'input_pcap_dir': 'raw_pcap',
+                 'instance': None,
+                 'output_slit_dir': 'output_split',
+                 'output_tsv_dir': 'output_tsv',
+                 'packet_num': 5,
+                 'payload_length': 128,
+                 'sample_num': 1,
+                 'threshold_file_size': 20},
+ 'seed': 1234,
+ 'task': 'test',
+ 'tokenizer': {'batch_size': 2000,
+               'config': {'normalizers': 'BertNormalizer',
+                          'pre_tokenizers': 'BertPreTokenizer',
+                          'trainer': 'WordPieceTrainer',
+                          'type': 'WordPiece'},
+               'instance': None,
+               'is_batched': True,
+               'special_tokens': ['[UNK]', '[PAD]', '[CLS]', '[SEP]', '[MASK]'],
+               'unknown_token': '[UNK]',
+               'vocab_size': 26000}}
+[2022/06/27 21:49-INFO-init_utils.py(20)] >> getting parameters from config.json
+[2022/06/27 21:49-INFO-init_utils.py(24)] >> {'distributed': {'back_end': 'deepspeed', 'enabled': False},
+ 'json_config_path': '../args_config.json',
+ 'mode': 'debug',
+ 'raw_dataset': {'dataset_root': '/root/PycharmProjects/ET-BERT-main/datasets/VPN-PCAPS-01',
+                 'input_pcap_dir': 'raw_pcap',
+                 'instance': None,
+                 'output_slit_dir': 'output_split',
+                 'output_tsv_dir': 'output_tsv',
+                 'packet_num': 5,
+                 'payload_length': 128,
+                 'sample_num': 1,
+                 'threshold_file_size': 20},
+ 'seed': 1234,
+ 'task': 'test',
+ 'tokenizer': {'batch_size': 2000,
+               'config': {'normalizers': 'BertNormalizer',
+                          'pre_tokenizers': 'BertPreTokenizer',
+                          'trainer': 'WordPieceTrainer',
+                          'type': 'WordPiece'},
+               'instance': None,
+               'is_batched': True,
+               'special_tokens': ['[UNK]', '[PAD]', '[CLS]', '[SEP]', '[MASK]'],
+               'unknown_token': '[UNK]',
+               'vocab_size': 26000}}
+[2022/06/27 21:50-ERROR-init_utils.py(19)] >> config file ./args_config.json not found
+NoneType: None
+[2022/06/28 00:11-ERROR-init_utils.py(19)] >> config file args_config.json not found
+NoneType: None
+[2022/06/28 14:41-ERROR-init_utils.py(19)] >> config file args_config.json not found
+NoneType: None
+[2022/07/03 09:16-WARNING-tqdm_utils.py(54)] >> console logging redirected to `tqdm.write()`
